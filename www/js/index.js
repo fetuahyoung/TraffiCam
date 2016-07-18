@@ -47,4 +47,94 @@ var app = {
 };
 
 app.initialize();
+
+function masseyRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/290', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function bairdsRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/110', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function SEHighway()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/90', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function greenlaneRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/80', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function marketRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/225', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function greatnorthRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/140', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function maioroSt()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/194', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function hillsboroughRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/191', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function onehungaWharf()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/202', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function rimuRd()
+{
+	var ref = window.open('http://nzta.govt.nz/traffic/cameras/203', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function SH1SouthCams()
+{
+	var ref = window.open('http://m.aucklandmotorways.co.nz/southerncams.html', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function SH20SWCams()
+{
+	var ref = window.open('http://m.aucklandmotorways.co.nz/swcams.html', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+	
+function trafficMap()
+{
+	var ref = window.open('http://m.aucklandmotorways.co.nz/map.html', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+		
+function newmarketRd()
+{
+	var ref = window.open('https://at.govt.nz/driving-parking/live-traffic-congestion/#{"center":{"lat":-36.88085639961899,"lng":174.77685928344727},"zoom":13,"layers":{"selected":["realtimeCongestion"]}}', '_blank', 'location=yes');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+function rainRadar()
+{
+	var ref = window.open('http://www.metservice.com/maps-radar/rain-radar/auckland');
+    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
     
